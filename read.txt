@@ -1,0 +1,143 @@
+-排序类
+Leetcode 148. Sort List
+Leetcode 56. Merge Intervals
+Leetcode 27. Remove elements
+Leetcode 179. Largest Number
+Leetcode 75. Sort Colors
+Leetcode 215. Kth Largest Element （可以用堆的解法替代）
+Leetcode 4. Median of Two Sorted Arrays
+
+-链表类
+Leetcode 206. Reverse Linked List
+Leetcode 876. Middle of the Linked List
+Leetcode 160. Intersection of Two Linked Lists
+Leetcode 141. Linked List Cycle (Linked List Cycle II)
+Leetcode 92. Reverse Linked List II
+Leetcode 328. Odd Even Linked List
+
+-堆栈队列哈希表类
+Leetcode 225. Implement Stack using Queues
+Leetcode 346. Moving Average from Data Stream
+Leetcode 281. Zigzag Iterator
+Leetcode 1429. First Unique Number
+Leetcode 54. Spiral Matrix
+Leetcode 232. Implement Queue using Stacks
+Leetcode 150. Evaluate Reverse Polish Notation
+Leetcode 1. Two Sum
+Leetcode 146. LRU Cache (Python中可以使用OrderedDict来代替)
+Leetcode 128. Longest Consecutive Sequence
+Leetcode 73. Set Matrix Zeroes
+Leetcode 380. Insert Delete GetRandom O(1)
+Leetcode 49. Group Anagrams
+Leetcode 350. Intersection of Two Arrays II
+Leetcode 299. Bulls and Cows
+Leetcode 378. Kth Smallest Element in a Sorted Matrix
+Leetcode 295. Find Median from Data Stream （标准解法是双heap，但是SortedDict会非常容易）
+Leetcode 767. Reorganize String
+Leetcode 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit (这个题用单调双端队列、TreeMap、双heap都可以)
+Leetcode 895. Maximum Frequency Stack
+
+-二分法
+Leetcode 34. Find First and Last Position of Element in Sorted Array
+Leetcode 33. Search in Rotated Sorted Array
+Leetcode 1095. Find in Mountain Array
+Leetcode 162. Find Peak Element
+Leetcode 278. First Bad Version
+Leetcode 74. Search a 2D Matrix
+Leetcode 240. Search a 2D Matrix II
+Leetcode 69. Sqrt(x)
+Leetcode 540. Single Element in a Sorted Array
+Leetcode 644. Maximum Average Subarray II
+Leetcode 528. Random Pick with Weight
+Leetcode 1300. Sum of Mutated Array Closest to Target
+Leetcode 1060. Missing Element in Sorted Array
+Leetcode 1062. Longest Repeating Substring
+Leetcode 1891. Cutting Ribbons
+
+-双指针
+Leetcode 409. Longest Palindrome
+Leetcode 125. Valid Palindrome
+Leetcode 5. Longest Palindromic Substring
+Leetcode 647. Palindromic Substrings
+Leetcode 1. Two Sum (这里使用的是先排序的双指针算法，不同于hashmap做法)
+Leetcode 26. Remove Duplicate Numbers in Array
+Leetcode 395. Longest Substring with At Least K Repeating Characters
+Leetcode 340. Longest Substring with At Most K Distinct Characters
+Leetcode 424. Longest Repeating Character Replacement
+Leetcode 76. Minimum Window Substring
+Leetcode 3. Longest Substring Without Repeating Characters
+Leetcode 1004 Max Consecutive Ones III
+
+-宽度优先搜索BFS
+Leetcode 102 Binary Tree Level Order Traversal
+Leetcode 103 Binary Tree Zigzag Level Order Traversal
+Leetcode 297 Serialize and Deserialize Binary Tree （很好的BFS和双指针结合的题）
+Leetcode 314 Binary Tree Vertical Order Traversal
+Leetcode 200. Number of Islands
+Leetcode 815. Bus Routes
+Leetcode 1091. Shortest Path in Binary Matrix
+Leetcode 542. 01 Matrix
+Leetcode 1293. Shortest Path in a Grid with Obstacles Elimination
+Leetcode 417. Pacific Atlantic Water Flow
+
+-深度优先搜索DFS
+Leetcode 543 Diameter of Binary Tree
+Leetcode 226 Invert Binary Tree
+Leetcode 101 Symmetric Tree
+Leetcode 863 All Nodes Distance K in Binary Tree
+Leetcode 1110 Delete Nodes And Return Forest
+Leetcode 230 Kth Smallest element in a BST
+Leetcode 98 Validate Binary Search Tree
+Leetcode 270 Cloest Binary Search Tree Value
+Leetcode 235 Lowest Common Ancestor of a Binary Search Tree
+Leetcode 51 N-Queens (I II基本相同)
+Leetcode 291 Word Pattern II (I为简单的Hashmap题)
+Leetcode 126 Word Ladder II （I为BFS题目）
+Leetcode 93 Restore IP Addresses
+Leetcode 22 Generate Parentheses
+Leetcode 586 Score of Parentheses
+Leetcode 301 Remove Invalid Parentheses
+Leetcode 37 Sodoku Solver
+Leetcode 212 Word Search II （I, II）
+Leetcode 1087 Brace Expansion
+Leetcode 399 Evaluate Division
+Leetcode 1274 Number of Ships in a Rectangle
+Leetcode 1376 Time Needed to Inform All Employees
+Leetcode 694 Number of Distinct Islands
+Leetcode 78 Subsets （I, II 重点在于如何去重）
+Leetcode 46 Permutation (I, II 重点在于如何去重)
+Leetcode 77 Combinations (I, II 重点在于如何去重)
+Leetcode 1335 Minimum Difficulty of a Job Schedule
+Leetcode 1216 Valid Palindrome III
+Leetcode 97 Interleaving String
+Leetcode 472 Concatenated Words
+Leetcode 403 Frog Jump
+Leetcode 329 Longest Increasing Path in a Matrix
+
+-前缀和
+Leetcode 53 Maximum Subarray
+Leetcode 1423 Maximum Points You Can Obtain from Cards
+Leetcode 1031 Maximum Sum of Two Non-Overlapping Subarrays
+Leetcode 523 Continuous Subarray Sum
+Leetcode 304 Range Sum Query 2D - Immutable
+
+-动态规划
+Leetcode 674 Longest Continuous Increasing Subsequence (接龙型dp)
+Leetcode 62 Unique Paths II
+Leetcode 70 Climbing Stairs
+Leetcode 64 Minimum Path Sum
+Leetcode 368 Largest Divisible Subset (接龙型dp)
+Leetcode 300 Longest Increasing Subsequence (接龙型dp)
+Leetcode 55 Jump Game
+Leetcode 132 Palindrome Partitioning II
+Leetcode 312 Burst Balloons (区间型dp)
+Leetcode 1143 Longest Common Subsequence (前缀型dp)
+Leetcode 1062 Longest Repeating Substring (dp方法与longest common substring一致)
+Leetcode 718 Maximum Length of Repeated Subarray (和1062本质上一样)
+Leetcode 639 Decode Ways II
+Leetcode 712 Minimum ASCII Delete Sum for Two Strings
+Leetcode 221 Maximal Square
+Leetcode 1277 Count Square Submatrices with All Ones (可以使用221一样的解法)
+Leetcode 198 House Robber
+Leetcode 213 House Robber II
+Leetcode 740 Delete and Earn
